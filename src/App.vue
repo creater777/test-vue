@@ -1,1 +1,0 @@
-<template>  <div class="container pt-5 pb-5">    <Main />  </div></template><script>import Main from "@/components/Main.vue";export default {  name: "App",  components: { Main },};</script>

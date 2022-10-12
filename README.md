@@ -1,5 +1,10 @@
 # test-task
 
+## База данных
+```
+Использовала Firebase
+```
+
 ## Project setup
 ```
 npm install
@@ -9,7 +14,7 @@ npm install
 ```
 npm run serve
 ```
-will be started at 8080 port
+will be startet at 8080 port
 
 ### Compiles and minifies for production
 ```

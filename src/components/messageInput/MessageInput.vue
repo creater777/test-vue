@@ -28,7 +28,7 @@
         this.inputValue = e.target.value;
       },
 
-      sendClickHandler(e) {
+      sendClickHandler() {
         this.sendHandler(this.inputValue);
       }
     }

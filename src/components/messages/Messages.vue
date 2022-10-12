@@ -2,7 +2,12 @@
   <div class="messages">
     <div class="messages__top"></div>
     <div class="messages__content">
-      <MessageItem :message="message" :removeHandler="removeHandler" v-for="(message,index) in messages" :index="index"/>
+      <MessageItem :message="message"
+                   :removeHandler="removeHandler"
+                   v-for="(message,index) in messages"
+                   :index="index"
+                   :key="index"
+      />
     </div>
     <div class="messages__input">
       <MessageInput :sendHandler="sendHandler"/>
